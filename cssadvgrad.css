@@ -1,0 +1,39 @@
+.gradient{
+    border-radius: 50%;
+    width: 100px;
+    height: 200px;
+    background-color: green;
+    background-image: linear-gradient(green 25%,blue 35%);
+}
+section{
+    border-radius: 150%;
+    height: 250px;
+    width: 250px;
+    background-color: brown;
+ box-shadow: 30px 20px 12px  green,55px 55px 20px 12px violet,85px 80px 25px 10px blue;
+}
+.text-section{
+    color: orange;
+    text-shadow: 25px 18px 3px 5px green;
+}
+div{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: aqua;
+    animation: linear infinite;
+    animation-name: square;
+    animation-duration: 3s;
+}
+@keyframes square{
+    0%{background-color: red; width: 0%}
+    20% {background-color: blue; width: 20%}
+    30%{background-color: violet; width: 30%}
+
+}
+section{
+    width: 50px;
+    height: 50px;
+    border: 1px;
+    margin: 10px;
+}
