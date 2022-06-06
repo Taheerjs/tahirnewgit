@@ -1,0 +1,126 @@
+
+body{
+    font-family: "Roboto condensed", sans-serif;
+    margin: 0;
+    height: auto;
+    background: #eee;
+
+
+}
+h1{
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+h2{
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: 0;
+}
+main{
+    max-width: 900px;
+    margin: auto;
+box-shadow: 30px 0px 40px rgba(0,0,0,0,1),-30px 0px 40px rgba(0,0,0,0,1);
+}
+img{
+    display: block;
+    width: 100%;
+}
+#landing{
+    background: #fff;
+}
+#landing-text{
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 2rem;
+}
+#landing-text h2{
+    color: #888;
+}
+#landing-image{
+    background: url(https://source.unsplash.com/dozkVhDyvhQ);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    margin: 0;
+    flex: 0 2 60vw;
+}
+.btn{
+    padding: 0.5rem 2rem;
+    display: inline-block;
+    border: 1px #ccc solid;
+    margin: 2rem 0 0;
+    border-radius: 50px;
+    color: #333;
+    text-decoration: none;
+    transition: backgroudn 550ms ease;
+
+    height: 20px;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 250px;
+
+}
+.btn:hover{
+    background: #f4f4f4;
+}
+
+#header{
+    padding: 1.5rem;
+    text-align: center;
+    background: #333;
+    color: #fff;
+}
+#header h2 {
+    border-left: double 2px #fff;
+    border-right:double 2px #fff;
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    }
+    
+    /* width: 50px;
+    height: 25px; */
+
+.caption{
+    padding: 1rem;
+    text-align: center;
+    
+}
+footer{
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    color: #333;
+}
+footer h2{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+@media(min-width:500px){
+    #landing{
+        display:flex;
+        height: 100%;
+    }
+    #landing-text{
+        height: 100vh;
+    }
+    #landing-image{
+        height: 100vh;
+    }
+}
+@media(min-width: 600px){
+    .btn{
+        padding: 1rem 3rem;
+    }
+}

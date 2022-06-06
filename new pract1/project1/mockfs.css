@@ -1,0 +1,62 @@
+.blocks{
+    /* display: flex; */
+    border: 50px;
+    margin: 50px;
+    color: black;
+}
+.chessb{
+   
+    border-radius: 50px;
+    margin: 50px;
+    justify-content: center;
+}
+.body{
+    background-color: black;
+    color: aliceblue;
+    width: 50px;
+    height: 50px;
+    flex-direction:row ;
+    justify-content: center;
+    display: block;
+    /* margin: auto; */
+}
+.tbody{
+    border: 50px;
+    background-color: bisque;
+    /* margin: 50px; */
+}
+.body1{
+    border: 50px;
+    width: 50px;
+    height: 50px;
+    color: black;
+    background-color: aliceblue;
+    display: block;
+    /* margin: 50px; */
+}
+.thead{
+    border: 50px;
+    width: 50px;
+    height: 50px;
+    color: aliceblue;
+    background-color: black;
+    display: block;
+}
+.thead1,.body{
+    border: 50px;
+    width: 50px;
+    height: 50px;
+    background-color:aliceblue;
+    display: block;
+
+}
+.thead2,.body2{
+    border: 50px;
+    width: 50px;
+    height: 50px;
+    background-color:aliceblue;
+    display: block;
+
+
+
+}

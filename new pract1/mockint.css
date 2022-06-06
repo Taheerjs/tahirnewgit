@@ -1,0 +1,19 @@
+.home{
+    margin-top: auto;
+    
+    justify-content: space-between;
+    background-color: green;
+}
+.news{
+    margin-top: auto;
+justify-content: space-between;
+    background-color: green;
+}
+.notifications{
+    
+    justify-content: space-between;
+    background-color: green;
+}
+.footer{
+    justify-items: flex-end;
+}
